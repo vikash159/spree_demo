@@ -1,1 +1,1 @@
-Devise.secret_key = Rails.application.credentials.secret_key_base
+Devise.secret_key = ENV['DEVISE_SECRET_KEY'] if ENV['DEVISE_SECRET_KEY'].present?
