@@ -1,0 +1,6 @@
+Doorkeeper.configure do
+  ...
+  ...
+  # Not a recommended approach. Set this to true if you want to setup the password flow without a client
+  skip_client_authentication_for_password_grant :true
+end
